@@ -1,0 +1,260 @@
+{
+  "schema_version": 2,
+  "series_id": "monani",
+  "title": "모난이의 작은 하루",
+  "audience": "비교와 조급함에 지친 일상 독자",
+  "tone": [
+    "공감",
+    "하찮은 귀여움",
+    "조용한 힐링"
+  ],
+  "episode_ids": [
+    "rest-001",
+    "sponge-002",
+    "paper-003"
+  ],
+  "lettering_preference": {
+    "container": "none"
+  },
+  "disclosure_preference": {
+    "enabled": false,
+    "user_response": "아 우측 하단에ai 생성이미지 지워줘"
+  },
+  "style": {
+    "schema_version": 1,
+    "style_id": "wavy-gray",
+    "revision": "r002",
+    "status": "approved",
+    "rules": {
+      "background": "흰색 #FFFFFF, 아이보리와 베이지 바탕 제외",
+      "character_color": "사물별 차분한 색상; 돌멩이는 중성 회색, 스펀지는 연한 노랑",
+      "line": "작은 굴곡이 반복되는 보슬보슬한 구불구불 손그림 윤곽선",
+      "lettering": "말풍선 없이 여백에 한글 코드 합성"
+    },
+    "sample_artifacts": [
+      {
+        "path": "outputs/monani/assets/51f5baed3afb1e3ee0b43f0da0a4b30a58e6dc6e1a308d712a3a9a2a1d237238.png",
+        "sha256": "51f5baed3afb1e3ee0b43f0da0a4b30a58e6dc6e1a308d712a3a9a2a1d237238",
+        "role": "character_sheet"
+      }
+    ],
+    "user_request": "배경색은 흰색으로 해주고 돌맹이는 조금 더 회색 빛으로 해줘 그리고 돌맹이의 테두리는 조금 더 보슬복슬한 구불구불한 스타일로해줘",
+    "approvals": [
+      {
+        "stage": "style",
+        "target_id": "wavy-gray",
+        "target_revision": "r001",
+        "user_response": "마음에 드네. 이걸로 하자",
+        "recorded_at": "2026-10-19T02:59:37.730648+00:00"
+      }
+    ]
+  },
+  "characters": [
+    {
+      "schema_version": 1,
+      "character_id": "monani",
+      "name": "모난이",
+      "revision": "r004",
+      "status": "approved",
+      "style_ref": {
+        "schema_version": 1,
+        "style_id": "wavy-gray",
+        "revision": "r002",
+        "status": "approved",
+        "rules": {
+          "background": "흰색 #FFFFFF, 아이보리와 베이지 바탕 제외",
+          "character_color": "갈색 기운 없는 중성 회색",
+          "line": "작은 굴곡이 반복되는 보슬보슬한 구불구불 손그림 윤곽선",
+          "lettering": "말풍선 없이 여백에 한글 코드 합성"
+        },
+        "sample_artifacts": [
+          {
+            "path": "outputs/monani/assets/51f5baed3afb1e3ee0b43f0da0a4b30a58e6dc6e1a308d712a3a9a2a1d237238.png",
+            "sha256": "51f5baed3afb1e3ee0b43f0da0a4b30a58e6dc6e1a308d712a3a9a2a1d237238",
+            "role": "character_sheet"
+          }
+        ],
+        "user_request": "배경색은 흰색으로 해주고 돌맹이는 조금 더 회색 빛으로 해줘 그리고 돌맹이의 테두리는 조금 더 보슬복슬한 구불구불한 스타일로해줘"
+      },
+      "species": "의인화한 조약돌",
+      "proportions": "머리와 몸이 한 덩어리, 가로가 조금 긴 낮은 형태",
+      "fixed_traits": [
+        "중성 회색",
+        "왼쪽 위의 완만한 돌출",
+        "구불구불하고 보슬보슬한 윤곽선",
+        "넓게 떨어진 점눈",
+        "짧은 입",
+        "짧고 가느다란 팔다리",
+        "의상과 손가락 없음"
+      ],
+      "variable_traits": [
+        "기울기",
+        "엎드리기",
+        "앉기",
+        "아주 작은 입꼬리 변화"
+      ],
+      "sheet_artifact": {
+        "path": "outputs/monani/assets/51f5baed3afb1e3ee0b43f0da0a4b30a58e6dc6e1a308d712a3a9a2a1d237238.png",
+        "sha256": "51f5baed3afb1e3ee0b43f0da0a4b30a58e6dc6e1a308d712a3a9a2a1d237238",
+        "role": "character_sheet"
+      },
+      "sheet_poses": [
+        "정면",
+        "3/4",
+        "굴러가려는 시도",
+        "엎드림",
+        "시무룩하게 앉기",
+        "편안한 미소"
+      ],
+      "concept_confirmation": {
+        "user_response": "ㅇㅇ 그렇게 해줘",
+        "scope": "캐릭터 개념과 이야기 방향; 최종 시트 승인은 approvals에 기록"
+      },
+      "approvals": [
+        {
+          "stage": "character",
+          "target_id": "monani",
+          "target_revision": "r003",
+          "user_response": "마음에 드네. 이걸로 하자",
+          "recorded_at": "2026-10-19T02:59:37.731519+00:00"
+        }
+      ]
+    },
+    {
+      "character_id": "sponge",
+      "name": "스펀지",
+      "revision": "r002",
+      "status": "approved",
+      "species": "작은 노란 스펀지",
+      "proportions": "몸과 머리가 하나인 낮고 둥근 사각형",
+      "fixed_traits": [
+        "연한 노랑",
+        "보슬보슬하고 구불구불한 짙은 회색 윤곽선",
+        "점눈과 짧은 입",
+        "짧은 선 팔다리",
+        "모서리 주변의 소수 구멍 표시"
+      ],
+      "variable_traits": [
+        "물기를 머금으며 축 처짐",
+        "작은 물방울",
+        "시선과 작은 입 모양"
+      ],
+      "sheet_artifact": {
+        "path": "outputs/monani/assets/sponge-sheet-r001.png",
+        "sha256": "ad931cc152ee901a2ba515b6c7e6e6f7934850dd1ace062ca6aabcc5f0a0e89d",
+        "role": "character_sheet"
+      },
+      "sheet_poses": [
+        "정면",
+        "3/4로 듣기",
+        "젖기 시작함",
+        "축 처져 앉기",
+        "더 못 듣겠다는 작은 손짓",
+        "옆을 바라보기"
+      ],
+      "approvals": [
+        {
+          "stage": "character",
+          "target_revision": "r001",
+          "sheet_artifact": {
+            "path": "outputs/monani/assets/sponge-sheet-r001.png",
+            "sha256": "ad931cc152ee901a2ba515b6c7e6e6f7934850dd1ace062ca6aabcc5f0a0e89d",
+            "role": "character_sheet"
+          },
+          "user_response": "응",
+          "recorded_at": "2026-10-19T05:41:59.517200+00:00"
+        }
+      ],
+      "qa": {
+        "decision": "pass",
+        "method": "visual",
+        "observations": [
+          "6개 포즈에서 사각형 스펀지 형태·노랑·점눈 일관",
+          "구불구불한 테두리, 처진 몸짓과 작은 물방울 표현"
+        ],
+        "issues": []
+      },
+      "generation": {
+        "actual_tool": "image_gen.imagegen",
+        "prompt": "Create an original character reference sheet for a tiny, endearingly pathetic yellow kitchen SPONGE mascot in a Korean relatable healing comic. The supplied image is STYLE reference ONLY: match its pure white background, charcoal slightly fuzzy hand-drawn wavy outlines, tiny widely spaced dot eyes, very short mouth, and extremely short thin stick arms and legs. Do NOT make another stone. Sponge is one squat soft rectangular body with rounded corners, width 1.25 times height, deliberately wobbly/squiggly perimeter with many small uneven rounded bends, charcoal gray pencil-ink edge. Pale muted buttery YELLOW flat body fill, exactly a few simple small ochre pore marks near outer corners, leave face clean; no green scouring layer, no realistic porous texture. No clothes, nose, eyelashes, fingers, shoes or anime eyes. Modest understated doodle, lovable and a little helpless. Square reference sheet, spacious 3-column 2-row arrangement, NO labels: top row front neutral standing, three-quarter listening with tiny short smile, listening while beginning to sag with one small pale blue droplet near lower edge. Bottom row saturated slumped sitting, two pale blue drips and tiny puddle; sitting tired with a tiny raised palm gesture signalling no more; same tired seated sponge turning its dot-eye gaze slightly right with a tiny attentive mouth, emotional relief understated. Keep identity, yellow hue, eye spacing and pore placement consistent; pose and sagging change slightly. No text, speech bubbles, watermarks, titles or panel borders. All negative space PURE WHITE #FFFFFF, no ivory or beige background, no paper texture. Shadows only faint neutral gray, water pale muted blue. Make the squiggly, softly rough, pathetic little silhouette clear.",
+        "input_refs": [
+          {
+            "path": "outputs/monani/assets/51f5baed3afb1e3ee0b43f0da0a4b30a58e6dc6e1a308d712a3a9a2a1d237238.png",
+            "sha256": "51f5baed3afb1e3ee0b43f0da0a4b30a58e6dc6e1a308d712a3a9a2a1d237238",
+            "role": "character_sheet"
+          }
+        ],
+        "source_path": "/Users/sewon/Library/Application Support/orca/codex-accounts/c741454d-89d5-4f08-8269-f1910ed1c845/home/generated_images/01a151d0-3949-7b02-a593-24b037a2a31d/exec-1f39f843-87d1-4753-a5d3-e94f74e8fc6c.png"
+      }
+    },
+    {
+      "character_id": "paper",
+      "name": "구겨진 종이",
+      "revision": "r001",
+      "status": "approved",
+      "species": "구겨진 흰 종이",
+      "fixed_traits": [
+        "흰색과 옅은 중성 회색",
+        "작게 구불구불한 짙은 회색 윤곽선",
+        "드문 각진 주름선",
+        "점눈·짧은 입·짧은 선 팔다리"
+      ],
+      "variable_traits": [
+        "걱정할수록 안으로 접히는 모서리",
+        "작은 종이공처럼 움츠림",
+        "조금 펴져도 남아 있는 주름",
+        "아주 작은 미소"
+      ],
+      "sheet_artifact": {
+        "path": "outputs/monani/assets/paper-sheet-r001.png",
+        "sha256": "9d7053fa530f18e30ec4adbcc5699a194785dc15026c0f5aa00019a412496234",
+        "role": "character_sheet"
+      },
+      "sheet_poses": [
+        "정면",
+        "3/4",
+        "걱정하며 접힘",
+        "작게 구겨져 휴대폰 보기",
+        "메시지 확인",
+        "주름을 남긴 채 작은 미소"
+      ],
+      "approvals": [
+        {
+          "stage": "character",
+          "target_revision": "r001",
+          "user_response": "ㅇ",
+          "recorded_at": "2026-10-19T06:04:29.168573+00:00"
+        }
+      ],
+      "generation": {
+        "actual_tool": "image_gen.imagegen",
+        "prompt": "Create a character reference sheet of ONLY the little WHITE CRUMPLED PAPER character on the RIGHT in the provided image. Preserve that character identity, not the yellow sponge. Original Korean understated empathy comic, endearingly pathetic paper object, irregular softly angular crumpled outline with small wavy squiggles and fuzzy charcoal pencil-ink edges; white/pale neutral gray fill, a few simple light-gray angular crease strokes, widely spaced tiny black dot eyes, very short mouth, tiny stick arms and legs, no clothes/nose/fingers/hair. Keep it looking like crumpled paper, not a stone or fluffy animal. Pure solid WHITE #FFFFFF background. Square spacious six-pose sheet, three columns two rows, NO labels: top left front neutral, top middle 3/4 turning with a tiny hand wave, top right anxious with outer corners folding slightly inward; bottom left scrunched into a smaller compact ball looking at a tiny dark gray smartphone, bottom middle looking surprised at the phone, bottom right only slightly unfolded still visibly wrinkled, sitting and looking down at the same phone with a very subtle closed-mouth relieved smile. The final pose must not be perfectly flat or uncreased. Keep creases sparse and readable, face unobscured. Smartphone screen blank white, no writing. Gentle minimal shadows only. No sponge, no other character, no speech balloons, no caption, no letters, no watermark, no panel borders. Match source's squiggly outline, dot eyes and tiny awkward limbs.",
+        "input_refs": [
+          {
+            "path": "outputs/monani/episodes/sponge-002/art/r001/panel-001.png",
+            "sha256": "92ad7f5b8e763845b5fa47e0d96ad1cc474a1850ef060fab04df6e4143057823",
+            "role": "prior_appearance"
+          }
+        ],
+        "source_path": "/Users/sewon/Library/Application Support/orca/codex-accounts/c741454d-89d5-4f08-8269-f1910ed1c845/home/generated_images/01a151d0-3949-7b02-a593-24b037a2a31d/exec-0259b622-6391-4ccf-8f75-aa81accd95b2.png"
+      },
+      "qa": {
+        "decision": "pass",
+        "method": "visual",
+        "observations": [
+          "종이의 불규칙한 윤곽과 단순한 주름·점눈 유지",
+          "작게 구겨진 모습과 조금 펴진 모습을 구분",
+          "마지막 포즈에서 주름과 작은 미소 유지"
+        ],
+        "issues": []
+      }
+    }
+  ],
+  "revision": 6,
+  "updated_at": "2026-10-19T06:04:29.174492+00:00",
+  "content_direction": {
+    "format": "다양한 하찮은 사물들이 같은 그림체로 재등장하는 공감+힐링툰",
+    "selection": "이야기와 감정에 맞는 사물 선택",
+    "user_response": "그렇게 하자 그리고 스펀지도 테두리 선 구불구불 하찮게해줘"
+  }
+}
